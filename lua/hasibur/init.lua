@@ -1,5 +1,8 @@
 require("hasibur.base")
--- require("hasibur.remap")
--- require("hasibur.packer")
--- require("hasibur.set")
+require("hasibur.highlights")
+require("hasibur.maps")
 
+-- require("hasibur.remap")
+require("hasibur.packer")
+-- require("hasibur.set")
+vim.keymap.set("i", "jj", "<esc>")
