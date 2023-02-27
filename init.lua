@@ -1,2 +1,2 @@
-print("Hello")
+vim.g.mapleader = ' '
 require('hasibur')
