@@ -38,4 +38,6 @@ return require('packer').startup(function(use)
   use 'dinhhuy258/git.nvim'
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
+  use 'MunifTanjim/nui.nvim'
+  use 'nvim-neo-tree/neo-tree.nvim'
 end)
