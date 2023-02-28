@@ -4,4 +4,4 @@ if (not status) then return end
 
 neotree.setup {}
 
-vim.keymap.set('n', '<leader>e', '<cmd>NeoTreeShowToggle<CR>')
+vim.keymap.set('n', '<leader>e', '<cmd>NeoTreeFocusToggle<CR>')
