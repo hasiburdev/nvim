@@ -39,5 +39,6 @@ return require('packer').startup(function(use)
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
   use 'MunifTanjim/nui.nvim'
+  use "terrortylor/nvim-comment"
   use 'nvim-neo-tree/neo-tree.nvim'
 end)
